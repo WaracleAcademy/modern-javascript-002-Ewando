@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+    "id": "1",
+    "manufacturer": "BMW",
+    "description": "Red",
+    "price": "5000"
+    },
+    {
+    "id": "2",
+    "manufacturer": "Fiat",
+    "description": "Green",
+    "price": "3000"
+    },
+    {
+    "id": "3",
+    "manufacturer": "Volvo",
+    "description": "Black",
+    "price": "4500"
+    },
+    {
+    "id": "4",
+    "manufacturer": "Honda",
+    "description": "Purple",
+    "price": "6000"
+    }
+  ]
+}
