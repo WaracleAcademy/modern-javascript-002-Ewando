@@ -1,0 +1,23 @@
+{
+  "name": "modern-javascript-002-ewando",
+  "version": "1.0.0",
+  "description": "A Base Repository to store work done for the Digital Academy Modern JavaScript 002 course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaracleAcademy/modern-javascript-002-Ewando.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaracleAcademy/modern-javascript-002-Ewando/issues"
+  },
+  "homepage": "https://github.com/WaracleAcademy/modern-javascript-002-Ewando#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
