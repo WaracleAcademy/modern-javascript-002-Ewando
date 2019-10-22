@@ -1,8 +1,30 @@
 import {render } from './renderer.js';
 import * as data from './data.json';
 
-const things = ['Volvo','Skoda'];
+const things = data.results;
 
-render ('<h2>test</h2>');
+function getThingTemplate(thing){
+  return '<li class="list-item">Manufacturer: ${thing.manufacturer}</li><li class="list-item">Price: ${thing.price}</li>';
+}
 
-console.log("testing the console");
+let content ='<ul>';
+
+for(let i=0; i < things.length; i++){
+  content += getThingTemplate(things[i])
+}
+
+content += '</ul>';
+
+render (content);
+
+const allLists = document.querySelectorAll('.list-item')
+
+allLists.forEach(function (item){
+  item.addEventListener('click', function(event){
+
+  });
+});
+
+things.find(function(item) {
+
+});
